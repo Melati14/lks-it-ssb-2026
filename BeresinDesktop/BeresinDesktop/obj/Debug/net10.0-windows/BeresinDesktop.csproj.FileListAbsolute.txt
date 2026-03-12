@@ -1,0 +1,16 @@
+C:\lks-it-ssb-2026\BeresinDesktop\BeresinDesktop\bin\Debug\net10.0-windows\BeresinDesktop.exe
+C:\lks-it-ssb-2026\BeresinDesktop\BeresinDesktop\bin\Debug\net10.0-windows\BeresinDesktop.deps.json
+C:\lks-it-ssb-2026\BeresinDesktop\BeresinDesktop\bin\Debug\net10.0-windows\BeresinDesktop.runtimeconfig.json
+C:\lks-it-ssb-2026\BeresinDesktop\BeresinDesktop\bin\Debug\net10.0-windows\BeresinDesktop.dll
+C:\lks-it-ssb-2026\BeresinDesktop\BeresinDesktop\bin\Debug\net10.0-windows\BeresinDesktop.pdb
+C:\lks-it-ssb-2026\BeresinDesktop\BeresinDesktop\obj\Debug\net10.0-windows\BeresinDesktop.Form1.resources
+C:\lks-it-ssb-2026\BeresinDesktop\BeresinDesktop\obj\Debug\net10.0-windows\BeresinDesktop.csproj.GenerateResource.cache
+C:\lks-it-ssb-2026\BeresinDesktop\BeresinDesktop\obj\Debug\net10.0-windows\BeresinDesktop.GeneratedMSBuildEditorConfig.editorconfig
+C:\lks-it-ssb-2026\BeresinDesktop\BeresinDesktop\obj\Debug\net10.0-windows\BeresinDesktop.AssemblyInfoInputs.cache
+C:\lks-it-ssb-2026\BeresinDesktop\BeresinDesktop\obj\Debug\net10.0-windows\BeresinDesktop.AssemblyInfo.cs
+C:\lks-it-ssb-2026\BeresinDesktop\BeresinDesktop\obj\Debug\net10.0-windows\BeresinDesktop.csproj.CoreCompileInputs.cache
+C:\lks-it-ssb-2026\BeresinDesktop\BeresinDesktop\obj\Debug\net10.0-windows\BeresinDesktop.dll
+C:\lks-it-ssb-2026\BeresinDesktop\BeresinDesktop\obj\Debug\net10.0-windows\refint\BeresinDesktop.dll
+C:\lks-it-ssb-2026\BeresinDesktop\BeresinDesktop\obj\Debug\net10.0-windows\BeresinDesktop.pdb
+C:\lks-it-ssb-2026\BeresinDesktop\BeresinDesktop\obj\Debug\net10.0-windows\BeresinDesktop.genruntimeconfig.cache
+C:\lks-it-ssb-2026\BeresinDesktop\BeresinDesktop\obj\Debug\net10.0-windows\ref\BeresinDesktop.dll
