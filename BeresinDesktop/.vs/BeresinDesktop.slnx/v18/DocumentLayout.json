@@ -3,8 +3,44 @@
   "WorkspaceRootPath": "C:\\lks-it-ssb-2026\\BeresinDesktop\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2929C1BF-A51D-4A45-B913-158B92F9C969}|BeresinDesktop\\BeresinDesktop.csproj|c:\\lks-it-ssb-2026\\beresindesktop\\beresindesktop\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{2929C1BF-A51D-4A45-B913-158B92F9C969}|BeresinDesktop\\BeresinDesktop.csproj|solutionrelative:beresindesktop\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{24C394B1-9423-BA74-305D-8D7F7065D366}|BeresinDesktop\\BeresinDesktop.csproj|c:\\lks-it-ssb-2026\\beresindesktop\\beresindesktop\\databasehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24C394B1-9423-BA74-305D-8D7F7065D366}|BeresinDesktop\\BeresinDesktop.csproj|solutionrelative:beresindesktop\\databasehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24C394B1-9423-BA74-305D-8D7F7065D366}|BeresinDesktop\\BeresinDesktop.csproj|c:\\lks-it-ssb-2026\\beresindesktop\\beresindesktop\\dashboardform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24C394B1-9423-BA74-305D-8D7F7065D366}|BeresinDesktop\\BeresinDesktop.csproj|solutionrelative:beresindesktop\\dashboardform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24C394B1-9423-BA74-305D-8D7F7065D366}|BeresinDesktop\\BeresinDesktop.csproj|c:\\lks-it-ssb-2026\\beresindesktop\\beresindesktop\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24C394B1-9423-BA74-305D-8D7F7065D366}|BeresinDesktop\\BeresinDesktop.csproj|solutionrelative:beresindesktop\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24C394B1-9423-BA74-305D-8D7F7065D366}|BeresinDesktop\\BeresinDesktop.csproj|C:\\lks-it-ssb-2026\\BeresinDesktop\\beresindesktop\\dashboardform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{24C394B1-9423-BA74-305D-8D7F7065D366}|BeresinDesktop\\BeresinDesktop.csproj|solutionrelative:beresindesktop\\dashboardform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24C394B1-9423-BA74-305D-8D7F7065D366}|BeresinDesktop\\BeresinDesktop.csproj|c:\\lks-it-ssb-2026\\beresindesktop\\beresindesktop\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{24C394B1-9423-BA74-305D-8D7F7065D366}|BeresinDesktop\\BeresinDesktop.csproj|solutionrelative:beresindesktop\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24C394B1-9423-BA74-305D-8D7F7065D366}|BeresinDesktop\\BeresinDesktop.csproj|c:\\lks-it-ssb-2026\\beresindesktop\\beresindesktop\\dashboardform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24C394B1-9423-BA74-305D-8D7F7065D366}|BeresinDesktop\\BeresinDesktop.csproj|solutionrelative:beresindesktop\\dashboardform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24C394B1-9423-BA74-305D-8D7F7065D366}|BeresinDesktop\\BeresinDesktop.csproj|c:\\lks-it-ssb-2026\\beresindesktop\\beresindesktop\\usersession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24C394B1-9423-BA74-305D-8D7F7065D366}|BeresinDesktop\\BeresinDesktop.csproj|solutionrelative:beresindesktop\\usersession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24C394B1-9423-BA74-305D-8D7F7065D366}|BeresinDesktop\\BeresinDesktop.csproj|C:\\lks-it-ssb-2026\\BeresinDesktop\\beresindesktop\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{24C394B1-9423-BA74-305D-8D7F7065D366}|BeresinDesktop\\BeresinDesktop.csproj|solutionrelative:beresindesktop\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24C394B1-9423-BA74-305D-8D7F7065D366}|BeresinDesktop\\BeresinDesktop.csproj|c:\\lks-it-ssb-2026\\beresindesktop\\beresindesktop\\beresindesktop.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{24C394B1-9423-BA74-305D-8D7F7065D366}|BeresinDesktop\\BeresinDesktop.csproj|solutionrelative:beresindesktop\\beresindesktop.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24C394B1-9423-BA74-305D-8D7F7065D366}|BeresinDesktop\\BeresinDesktop.csproj|c:\\lks-it-ssb-2026\\beresindesktop\\beresindesktop\\beresindesktop.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{24C394B1-9423-BA74-305D-8D7F7065D366}|BeresinDesktop\\BeresinDesktop.csproj|solutionrelative:beresindesktop\\beresindesktop.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,11 +50,125 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LoginForm.cs",
+              "DocumentMoniker": "C:\\lks-it-ssb-2026\\BeresinDesktop\\BeresinDesktop\\LoginForm.cs",
+              "RelativeDocumentMoniker": "BeresinDesktop\\LoginForm.cs",
+              "ToolTip": "C:\\lks-it-ssb-2026\\BeresinDesktop\\BeresinDesktop\\LoginForm.cs",
+              "RelativeToolTip": "BeresinDesktop\\LoginForm.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAuwDcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-15T14:34:46.446Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DashboardForm.Designer.cs",
+              "DocumentMoniker": "C:\\lks-it-ssb-2026\\BeresinDesktop\\BeresinDesktop\\DashboardForm.Designer.cs",
+              "RelativeDocumentMoniker": "BeresinDesktop\\DashboardForm.Designer.cs",
+              "ToolTip": "C:\\lks-it-ssb-2026\\BeresinDesktop\\BeresinDesktop\\DashboardForm.Designer.cs",
+              "RelativeToolTip": "BeresinDesktop\\DashboardForm.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-15T15:02:33.232Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DashboardForm.cs [Design]",
+              "DocumentMoniker": "C:\\lks-it-ssb-2026\\BeresinDesktop\\BeresinDesktop\\DashboardForm.cs",
+              "RelativeDocumentMoniker": "BeresinDesktop\\DashboardForm.cs",
+              "ToolTip": "C:\\lks-it-ssb-2026\\BeresinDesktop\\BeresinDesktop\\DashboardForm.cs [Design]",
+              "RelativeToolTip": "BeresinDesktop\\DashboardForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-14T14:18:01.705Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DashboardForm.cs",
+              "DocumentMoniker": "C:\\lks-it-ssb-2026\\BeresinDesktop\\BeresinDesktop\\DashboardForm.cs",
+              "RelativeDocumentMoniker": "BeresinDesktop\\DashboardForm.cs",
+              "ToolTip": "C:\\lks-it-ssb-2026\\BeresinDesktop\\BeresinDesktop\\DashboardForm.cs",
+              "RelativeToolTip": "BeresinDesktop\\DashboardForm.cs",
+              "ViewState": "AgIAAG8AAAAAAAAAAAAuwHsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-14T14:19:10.424Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "LoginForm.cs [Design]",
+              "DocumentMoniker": "C:\\lks-it-ssb-2026\\BeresinDesktop\\BeresinDesktop\\LoginForm.cs",
+              "RelativeDocumentMoniker": "BeresinDesktop\\LoginForm.cs",
+              "ToolTip": "C:\\lks-it-ssb-2026\\BeresinDesktop\\BeresinDesktop\\LoginForm.cs [Design]",
+              "RelativeToolTip": "BeresinDesktop\\LoginForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-15T14:31:03.921Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "DatabaseHelper.cs",
+              "DocumentMoniker": "C:\\lks-it-ssb-2026\\BeresinDesktop\\BeresinDesktop\\DatabaseHelper.cs",
+              "RelativeDocumentMoniker": "BeresinDesktop\\DatabaseHelper.cs",
+              "ToolTip": "C:\\lks-it-ssb-2026\\BeresinDesktop\\BeresinDesktop\\DatabaseHelper.cs",
+              "RelativeToolTip": "BeresinDesktop\\DatabaseHelper.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAqwBAAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-15T14:27:11.562Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UserSession.cs",
+              "DocumentMoniker": "C:\\lks-it-ssb-2026\\BeresinDesktop\\BeresinDesktop\\UserSession.cs",
+              "RelativeDocumentMoniker": "BeresinDesktop\\UserSession.cs",
+              "ToolTip": "C:\\lks-it-ssb-2026\\BeresinDesktop\\BeresinDesktop\\UserSession.cs",
+              "RelativeToolTip": "BeresinDesktop\\UserSession.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-14T13:40:15.356Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "BeresinDesktop.csproj",
+              "DocumentMoniker": "C:\\lks-it-ssb-2026\\BeresinDesktop\\BeresinDesktop\\BeresinDesktop.csproj",
+              "RelativeDocumentMoniker": "BeresinDesktop\\BeresinDesktop.csproj",
+              "ToolTip": "C:\\lks-it-ssb-2026\\BeresinDesktop\\BeresinDesktop\\BeresinDesktop.csproj",
+              "RelativeToolTip": "BeresinDesktop\\BeresinDesktop.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-03-14T12:35:41.737Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "BeresinDesktop",
+              "DocumentMoniker": "C:\\lks-it-ssb-2026\\BeresinDesktop\\BeresinDesktop\\BeresinDesktop.csproj",
+              "RelativeDocumentMoniker": "BeresinDesktop\\BeresinDesktop.csproj",
+              "ToolTip": "C:\\lks-it-ssb-2026\\BeresinDesktop\\BeresinDesktop\\BeresinDesktop.csproj",
+              "RelativeToolTip": "BeresinDesktop\\BeresinDesktop.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-03-14T12:35:29.268Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "C:\\lks-it-ssb-2026\\BeresinDesktop\\BeresinDesktop\\Form1.cs",
               "RelativeDocumentMoniker": "BeresinDesktop\\Form1.cs",
