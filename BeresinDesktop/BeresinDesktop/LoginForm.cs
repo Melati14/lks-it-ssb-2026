@@ -11,7 +11,7 @@ namespace BeresinDesktop
 {
     public partial class LoginForm : Form
     {
-        string connString = @"Server=localhost;Database=BeresinDB;Trusted_Connection=True;";
+        string connString = @"Data Source=localhost\SQLEXPRESS;Initial Catalog=BeresinDB;Integrated Security=True;";
 
         public LoginForm()
         {

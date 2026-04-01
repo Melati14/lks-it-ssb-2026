@@ -8,7 +8,7 @@ namespace BeresinDesktop
     internal class DatabaseHelper
     {
         public static string connString =
-            @"Server=localhost;Database=BeresinDB;Trusted_Connection=True;";
+            @"Server=localhost\SQLEXPRESS;Database=BeresinDB;Trusted_Connection=True;";
 
         public static SqlConnection GetConnection()
         {

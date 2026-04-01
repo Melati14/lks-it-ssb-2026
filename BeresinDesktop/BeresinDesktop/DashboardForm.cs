@@ -12,7 +12,7 @@ namespace BeresinDesktop
 {
     public partial class DashboardForm : Form
     {
-        string connString = @"Server=localhost;Database=BeresinDB;Trusted_Connection=True;";
+        string connString = @"Data Source=localhost\SQLEXPRESS;Initial Catalog=BeresinDB;Integrated Security=True;";
         string userRole;
 
         public DashboardForm(string role)
@@ -23,8 +23,8 @@ namespace BeresinDesktop
 
         private void DashboardForm_Load(object sender, EventArgs e)
         {
-          
-    if (userRole == "Admin")
+
+            if (userRole == "Admin")
             {
                 lblWelcome.Text = "Selamat Datang Admin, Anda memiliki akses penuh";
                 btnDelete.Visible = true; // Admin bisa lihat tombol hapus
@@ -36,9 +36,10 @@ namespace BeresinDesktop
             }
 
             LoadTasks();
+            LoadCategories();
         }
 
-        
+
         void LoadTasks()
         {
             using (SqlConnection conn = new SqlConnection(connString))
@@ -56,6 +57,24 @@ namespace BeresinDesktop
                 da.Fill(dt);
 
                 dgvTasks.DataSource = dt;
+            }
+        }
+
+        void LoadCategories()
+        {
+            using (SqlConnection conn = new SqlConnection(connString))
+            {
+                conn.Open();
+
+                string query = "SELECT CategoryID, CategoryName FROM Categories";
+
+                SqlDataAdapter da = new SqlDataAdapter(query, conn);
+                DataTable dt = new DataTable();
+                da.Fill(dt);
+
+                cmbCategory.DataSource = dt;
+                cmbCategory.DisplayMember = "CategoryName"; // yang tampil
+                cmbCategory.ValueMember = "CategoryID";     // yang dikirim
             }
         }
 
@@ -86,38 +105,129 @@ namespace BeresinDesktop
         private void button2_Click(object sender, EventArgs e)
         {
 
+         
+            if (dgvTasks.CurrentRow != null)
+            {
+                int id = Convert.ToInt32(dgvTasks.CurrentRow.Cells["TaskID"].Value);
+
+                using (SqlConnection conn = new SqlConnection(connString))
+                {
+                    conn.Open();
+
+                    string query = "UPDATE Tasks SET Title=@title, Status=@status WHERE TaskID=@id";
+
+                    SqlCommand cmd = new SqlCommand(query, conn);
+
+                    cmd.Parameters.AddWithValue("@title", txtTambah.Text);
+                    cmd.Parameters.AddWithValue("@status", cmbStatus.Text);
+                    cmd.Parameters.AddWithValue("@id", id);
+
+                    cmd.ExecuteNonQuery();
+
+                    MessageBox.Show("Data berhasil diupdate!");
+
+                    LoadTasks();
+                }
+            }
+            else
+            {
+                MessageBox.Show("Klik data dulu di tabel!");
+            }
         }
+
 
         private void btnTambah_Click(object sender, EventArgs e)
         {
 
-        }
 
-        private void btnDelete_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void cmbStatus_SelectedIndexChanged(object sender, EventArgs e)
-        {
             using (SqlConnection conn = new SqlConnection(connString))
             {
                 conn.Open();
 
-                string query = "SELECT * FROM Tasks WHERE Status=@status";
+                string query = "INSERT INTO Tasks (Title, Status, CategoryID) VALUES (@title, @status, @category)";
 
                 SqlCommand cmd = new SqlCommand(query, conn);
 
+                cmd.Parameters.AddWithValue("@title", txtTambah.Text);
                 cmd.Parameters.AddWithValue("@status", cmbStatus.Text);
+                cmd.Parameters.AddWithValue("@category", cmbCategory.SelectedValue); // 🔥 ini penting
 
-                SqlDataAdapter da = new SqlDataAdapter(cmd);
+                cmd.ExecuteNonQuery();
 
-                DataTable dt = new DataTable();
+                MessageBox.Show("Data berhasil ditambahkan!");
 
-                da.Fill(dt);
+                LoadTasks();
+            }
+        }
 
-                dgvTasks.DataSource = dt;
+
+        private void btnDelete_Click(object sender, EventArgs e)
+        {
+
+            if (dgvTasks.SelectedRows.Count > 0)
+            {
+                int id = Convert.ToInt32(dgvTasks.SelectedRows[0].Cells["TaskID"].Value);
+
+                DialogResult result = MessageBox.Show(
+                    "Yakin mau hapus data ini?",
+                    "Konfirmasi",
+                    MessageBoxButtons.YesNo
+                );
+
+                if (result == DialogResult.Yes)
+                {
+                    using (SqlConnection conn = new SqlConnection(connString))
+                    {
+                        conn.Open();
+
+                        string query = "DELETE FROM Tasks WHERE TaskID=@id";
+
+                        SqlCommand cmd = new SqlCommand(query, conn);
+
+                        cmd.Parameters.AddWithValue("@id", id);
+
+                        cmd.ExecuteNonQuery();
+
+                        MessageBox.Show("Data berhasil dihapus!");
+
+                        LoadTasks();
+                    }
+                }
+            }
+            else
+            {
+                MessageBox.Show("Pilih data dulu!");
+            }
+        }
+
+
+        private void cmbStatus_SelectedIndexChanged(object sender, EventArgs e)
+        {
+           
+        }
+
+        private void lblWelcome_Click(object sender, EventArgs e)
+        {
+
+        }
+
+
+        private void txtTambah_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+        private void dgvTasks_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+            if (e.RowIndex >= 0)
+            {
+                DataGridViewRow row = dgvTasks.Rows[e.RowIndex];
+
+                txtTambah.Text = row.Cells["Title"].Value.ToString();
+                cmbStatus.Text = row.Cells["Status"].Value.ToString();
             }
         }
     }
+
 }
+
+
